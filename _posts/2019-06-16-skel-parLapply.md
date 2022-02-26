@@ -3,7 +3,7 @@ layout: post
 title:  "A parLapply example"
 description: "A simple working example of using parLapply in R to perform a very basic sensitivity analysis (here, of a static function)."
 date:   2019-06-16 13:00:22 -0600
-categories: R-code simulation
+categories: R simulation
 ---
 
 When working with students and postdocs, I often provide "skeletons", i.e., canonical examples of code that illustrate something that I want them to do in another context. Example: running some code in parallel. Here, I will carry out a very simple and naive sensitivity analysis of the value of the basic reproduction number $\mathcal{R}_0$ in the basic Kermack and McKendrick SIR model.

@@ -3,7 +3,7 @@ layout: post
 title:  "Spatio-temporal spread of COVID-19: considerations and modelling"
 description: "A review of the spatio-temporal spread of COVID-19, both in terms of actual spread and in terms of modelling, that I wrote for Fields Institute Communications."
 date:   2022-02-15
-categories: data R-code
+categories: data R
 ---
 
 The paper I briefly present here together with some of the code used to generate figures, was published as "Describing, Modelling and Forecasting the Spatial and Temporal Spread of COVID-19: A Short Review" in *Fields Institute Communications* **85**:25-51 (2022). It can be downloaded [here](https://doi.org/10.1007/978-3-030-85053-1_2) or from my webpage [here](https://server.math.umanitoba.ca/~jarino/publications/Arino-2022-FIC85.pdf). An older version is available on arXiv [here](https://arxiv.org/pdf/2102.02457.pdf).
