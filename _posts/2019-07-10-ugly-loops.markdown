@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "Ugly loops versus pretty vectors (R)"
+title:  "Ugly loops versus pretty vectors"
 description: "A comparison of the execution times of loops and vector operations in R using the tictoc library."
 date:   2019-07-10
-categories: simulation
+categories: simulation R-code
 ---
 
 The other day, I posted a prototypical example of use of parLapply, somewhat more advanced than the ones in the documentation; see [here](https://julien-arino.github.io/2019/skel-parLapply).

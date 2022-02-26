@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "Mathematical epidemiology in a data-rich world (R)"
+title:  "Mathematical epidemiology in a data-rich world"
 description: "Comments on and Rmarkdown source code of the paper Mathematical epidemiology in a data-rich world (Infectious Diseases Modelling, 2020)."
 date:   2020-01-15
-categories: simulation
+categories: R-code data simulation
 ---
 Find the code [here](https://github.com/julien-arino/modelling-with-data).
 

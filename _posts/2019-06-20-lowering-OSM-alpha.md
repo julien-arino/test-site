@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "Lowering the alpha value in an OSM map (R,mapping)"
+title:  "Lowering the alpha value in an OSM map"
 description: "Simple solution to change the alpha channel (that is, the opacity or transparency) in an OpenStreetMap map in R, using a function that adds an alpha value to a hexadecimal RGB colour specification."
 date:   2019-06-20 09:52:00 -0600
-categories: mapping
+categories: mapping R-code
 ---
 The most recent version of the code used in this page (which might be a little different from the one here) can be found [here](https://raw.githubusercontent.com/julien-arino/R-code/master/change_alpha_in_OSM_map.R).
 
