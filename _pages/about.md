@@ -2,23 +2,25 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: Mathematical epidemiologist
 
 profile:
   align: right
   image: prof_pic.jpg
   address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>432 Machray Hall</p>
+    <p>University of Manitoba</p>
+    <p>Winnipeg, Manitoba</p>
 
-news: true  # includes a list of news items
+news: false  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am a Professor and 2021-2024 Faculty of Science Research Chair in Fundamental Science with the Department of Mathematics, a member of the [Data Science NEXUS](http://www.sci.umanitoba.ca/data-science-nexus/) and a faculty member of the [VADA Graduate Training Program](http://vada.cs.umanitoba.ca/), all at the [University of Manitoba](https://umanitoba.ca/). I am also a member of the [Canadian Centre for Disease Modelling](http://cdm.yorku.ca/), the [Canadian COVID-19 Mathematical Modelling Task Force](http://www.fields.utoronto.ca/activities/Mathematical-Modelling-COVID-19) and three of the NSERC Emerging Infectious Disease consortium projects (CANMOD, MfPH and OMNI/RÉUNIS).
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+My research deals primarily with population movement in epidemiology and ecology, with particular interest on the spatio-temporal spread of infectious diseases. In this context, I am interested in two main aspects: the relationship between mobility modalities and the fast global spread of infectious pathogens, as well as the effect of interconnections of public health systems with a variety of health practices. I use mathematical modelling to consider the risk of importation of disease to various public health entities. I have also dabbled with other mathematical biology problems.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+As part of my work, I have become more and more interested in the use of data in my models, hence my membership in VADA and the Data Science NEXUS.
+
+You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/test-site/publications/) automatically.
