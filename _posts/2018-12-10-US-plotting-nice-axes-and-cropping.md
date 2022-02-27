@@ -3,7 +3,7 @@ layout: post
 title:  "Plotting a nice y-axis and cropping figures"
 description: "R functions to make human readable y-axis and to crop figures."
 date:   2018-12-10 00:39:22 -0600
-categories: R
+categories: r-code
 ---
 
 I was getting lost when editing the post about [US measles cases data](https://julien-arino.github.io/2018/US-measles-cases) and so decided recently to cut that post in two. The one on measles is about .. measles. Here, I discuss some code I use to make the y-axis in R figures look a bit better than it does by default. I also show a function for cropping results.

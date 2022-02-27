@@ -2,9 +2,9 @@
 layout: page
 title: projects
 permalink: /projects/
-description: Some ongoing and past projects.
+description: Some current and past projects and research topics.
 nav: true
-display_categories: [work, fun, current, past]
+display_categories: [current, past]
 horizontal: false
 ---
 
