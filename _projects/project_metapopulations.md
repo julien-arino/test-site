@@ -19,7 +19,7 @@ Skip forward more than 1500 years. In medieval and renaissance Europe, a success
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="https://upload.wikimedia.org/wikipedia/commons/d/d3/Blackdeath2.gif" title="spread of black death" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/Blackdeath2.gif" title="spread of black death" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
@@ -34,7 +34,7 @@ Compare the patterns of spread of infection for the Black Plague in Europe in th
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="https://upload.wikimedia.org/wikipedia/commons/d/d3/Blackdeath2.gif" title="spread of black death" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/Blackdeath2.gif" title="spread of black death" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/FluWatch_wk38_2010_to_wk38_2011.gif" title="spread of influenza" class="img-fluid rounded z-depth-1" %}
@@ -70,7 +70,7 @@ $$
 \label{sys:PDE}
 \frac{\partial S}{\partial t} &= D_S\Delta S-\beta SI \\ 
 \frac{\partial I}{\partial t} &= D_I\Delta I+\beta SI-\mu I, 
-\end{align}
+\end{aligned}
 $$ 
 
 where $$\Delta$$ is the Laplacian, $$D_S$$ and $$D_I$$ are the diffusion rates of susceptible and infectious individuals, respectively, $$\beta$$ is the transmission coefficient and $$\mu$$ is the rate of leaving the infectious state because of recovery or death due to the disease. This model is formulated on some spatial domain $$\Omega$$ and completed with initial conditions of the form $$S(0,x)=\phi_S(x)$, $I(0,x)=\phi_I(x)$$, for $$x\in\Omega$$. Depending on the nature of $$\Omega$$, boundary conditions would or would not be specified.
