@@ -6,19 +6,19 @@ description: Supervision of researchers in training.
 nav: true
 ---
 
-# Postdoctoral fellows
-## Current
-## Former
+## Postdoctoral fellows
+### Current
+### Former
 - Nicolas Bajeux. Department of Mathematics, University of Manitoba.
 - Ling Xue. Department of Mathematics, University of Manitoba. PIMS Postdoctoral Fellow. Co-supervision with Felicia Magpantay (Queen's U.). Currently Assistant Professor, Harbin Engineering University.
 - Sehjeong Kim. St Michael's Hospital, Toronto. Co-supervision with Kamran Khan. Currently Assistant Professor, United Arab Emirates University.
 - Chengjun Sun. Department of Mathematics, University of Manitoba. Currently Associate Professor, Kunming University of Science and Technology.
 - Michel Virgilio. Department of Mathematics, University of Manitoba. Currently Sessional Instructor, University of Manitoba.
 
-# Graduate students
-## Current
+## Graduate students
+### Current
 - Adriana-Stefania Ciupeanu. IIS PhD and VADA Program student, Departments of Mathematics and Statistics, University of Manitoba.
-## Former
+### Former
 - Agnes Adefisan, M.Sc., Department of Mathematics, University of Manitoba. A mathematical model of Ebola Virus Disease.
 - Mahnaz Alavinejad. M.Sc., Department of Mathematics, University of Manitoba. Transmission dynamics of an infectious disease with treatment. Currently Ph.D. student at York University (Toronto).
 - Flora Cordoléani. Master 2, Université de la Méditerranée, Marseille, France. Currently Assistant Project Scientist, Southwest Fisheries Science Center, CA, USA.
@@ -32,22 +32,22 @@ nav: true
 - Nicolas Verrier. Master 2, Université de la Méditerranée, Marseille, France.
 - Lindsay Wessel. M.Sc., Department of Mathematics, University of Manitoba. Impact of vaccination and mobility on disease dynamics: a two patch model for measles.
 
-# Undergraduate students
-## Current
+## Undergraduate students
+### Current
 
-## Former
+### Former
 - Jane MacDonald. Currently M.Sc. student at University of Ottawa.
 - Liliana Menjivar. Became graduate student at U of M (see above).
 - January Sherbo. NSERC USRA student, Summer 2016 and Summer 2017. Currently M.Sc. student at University of Oxford.
 - Lindsay Wessel. Became graduate student at U of M (see above).
 
 
-# Opportunities for undergraduate students
+## Opportunities for undergraduate students
 If you are an undergraduate student at the University of Manitoba and want an experience of research, I am often looking for summer or research students with some knowledge of one (or more) of the following:
-mathematics
-computer science
-epidemiology
-biology
-ecology
-transportation geography
+- mathematics
+- computer science
+- epidemiology
+- biology
+- ecology
+- transportation geography
 Contact me for details.
