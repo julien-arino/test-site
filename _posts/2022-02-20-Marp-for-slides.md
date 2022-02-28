@@ -75,9 +75,8 @@ Note that it is possible to use `html` or `css` constructs in the code to obtain
 
 # Where to find my presentation files
 
-To finish, files are available in two locations.
+[Update 2022-02-27] To finish, files are available from [this GitHub repository](https://github.com/julien-arino/presentations). They can be seen in several format.
 
-- The `markdown` files, `html` and `pdf` files, as well as the figure and movie files, are located in [this github repo](https://github.com/julien-arino/presentations).
-- The `html` files are also hosted right here in the [`presentations` subdirectory](https://julien-arino.github.io/presentations/).
-
-This may change in the future, but for now, this second location allows to view the `html` files as web pages rather than as raw `html`. I hope having the `markdown` (`.md`) files as well as the output `html` and `pdf` is helpful to some considering using this type of method but equally computationally challenged as me.
+- The `markdown` files, `pdf` and raw `html` files, as well as the figure and movie files, are located in the repo.
+- The `html` files can be viewed in a browser by instead following the link to the GitHub pages [version of the repo](https://julien-arino.github.io/presentations/).
+- 
