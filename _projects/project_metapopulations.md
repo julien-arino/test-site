@@ -65,13 +65,11 @@ My work in this area used to take place mostly in the context of the BioDiaspora
 
 In situations when the spread takes the form of the slow spread that was observed in the case of the Black Death, or for most animal diseases, the formalism of partial differential equations is quite appropriate. Consider the simple example of a disease that follows a very simple infection pathway: individuals are either susceptible to the disease or infected and infectious with the disease. Denote $$S(t,x)$$ and $$I(t,x)$$ the density of susceptible and infectious individuals at spatial location $$x$$ at time $$t$$, respectively. 
 
-$$
-\begin{aligned} 
+\begin{align} 
 \label{sys:PDE}
 \frac{\partial S}{\partial t} &= D_S\Delta S-\beta SI \\ 
 \frac{\partial I}{\partial t} &= D_I\Delta I+\beta SI-\mu I, 
-\end{aligned}
-$$ 
+\end{align}
 
 where $$\Delta$$ is the Laplacian, $$D_S$$ and $$D_I$$ are the diffusion rates of susceptible and infectious individuals, respectively, $$\beta$$ is the transmission coefficient and $$\mu$$ is the rate of leaving the infectious state because of recovery or death due to the disease. This model is formulated on some spatial domain $$\Omega$$ and completed with initial conditions of the form $$S(0,x)=\phi_S(x)$, $I(0,x)=\phi_I(x)$$, for $$x\in\Omega$$. Depending on the nature of $$\Omega$$, boundary conditions would or would not be specified.
 
