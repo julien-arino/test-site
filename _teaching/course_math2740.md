@@ -1,7 +1,7 @@
 ---
 layout: page
-title: spatio-temporal spread of diseases
-description: dynamics of metapopulation disease models
+title: MATH 2740
+description: Mathematics of Data Science
 img: assets/img/figure_variant_importation_base_model_with_stimulations.png
 importance: 1
 category: current

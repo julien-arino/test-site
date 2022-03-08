@@ -2,7 +2,7 @@
 layout: page
 title: teaching
 permalink: /teaching/
-description: Material for some courses current and past. For current courses, information specific to a term is on UMLearn.
+description: Material for some courses current and past. For ongoing courses, information specific to a term is on UMLearn.
 nav: true
 display_categories: [current, past]
 horizontal: false
@@ -28,28 +28,28 @@ horizontal: false
   {%- else -%}
   <div class="grid">
     {%- for course in sorted_courses -%}
-      {% include projects.html %}
+      {% include courses.html %}
     {%- endfor %}
   </div>
   {%- endif -%}
   {% endfor %}
 
 {%- else -%}
-<!-- Display projects without categories -->
-  {%- assign sorted_projects = site.projects | sort: "importance" -%}
-  <!-- Generate cards for each project -->
+<!-- Display courses without categories -->
+  {%- assign sorted_courses = site.courses | sort: "importance" -%}
+  <!-- Generate cards for each course -->
   {% if page.horizontal -%}
   <div class="container">
     <div class="row row-cols-2">
-    {%- for project in sorted_projects -%}
-      {% include projects_horizontal.html %}
+    {%- for course in sorted_courses -%}
+      {% include courses_horizontal.html %}
     {%- endfor %}
     </div>
   </div>
   {%- else -%}
   <div class="grid">
-    {%- for project in sorted_projects -%}
-      {% include projects.html %}
+    {%- for course in sorted_courses -%}
+      {% include courses.html %}
     {%- endfor %}
   </div>
   {%- endif -%}
