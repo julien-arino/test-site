@@ -8,7 +8,7 @@ categories: epidemiology
 
 Those who have suffered through one of my talks know that when discussing the spatial and temporal spread of infectious diseases (i.e., most of the time), I typically start by showing a slide similar to this:
 
-![Thucydides](/assets_pics/Thucydides_quote.png)
+![Thucydides](/assets/img/Thucydides_quote.png)
 
 I usually remark on the fact that this means the issue I am considering is not new and that almost two and a half millennia ago, Thucydides already gave a pretty "spatial" description of spread. I often advocate reading Thucydides. So I thought "why not make a blog post about this?".. and here is said post.
 
@@ -22,7 +22,7 @@ Concerning the *History of the Peloponnesian War*, the [Wikipedia page](https://
 
 However, let me start with a *caveat*. Here is another slide that I sometimes show.
 
-![Was it plague?](/assets_pics/Plague_of_Athens_or_what.png)
+![Was it plague?](/assets/img/Plague_of_Athens_or_what.png)
 
 This is a small sample of the medical literature on the topic. Clearly there is a good degree of uncertainty about the actual pathogen involved and everybody seems keen to claim it is their favourite pathogen that was involved. I will refer to the infection as *plague*, bearing in mind that it very likely is not.
 
