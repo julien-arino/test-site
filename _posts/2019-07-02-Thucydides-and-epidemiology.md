@@ -8,12 +8,9 @@ categories: epidemiology
 
 Those who have suffered through one of my talks know that when discussing the spatial and temporal spread of infectious diseases (i.e., most of the time), I typically start by showing a slide similar to this:
 
-<span style="display:block;text-align:center">
-    ![](/assets/img/Thucydides_quote.png)
-</span>
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="/assets/img/Thucydides_quote.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="/assets/img/Thucydides_quote.png" title="My boring Thucydides slide" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
@@ -30,9 +27,12 @@ Concerning the *History of the Peloponnesian War*, the [Wikipedia page](https://
 
 However, let me start with a *caveat*. Here is another slide that I sometimes show.
 
-<span style="display:block;text-align:center">
-    ![](/assets/img/Plague_of_Athens_or_what.png)
-</span>
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="/assets/img/Plague_of_Athens_or_what.png" title="Is it a bird? Is it a plane? Is it a plague?" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
 
 This is a small sample of the medical literature on the topic. Clearly there is a good degree of uncertainty about the actual pathogen involved and everybody seems keen to claim it is their favourite pathogen that was involved. I will refer to the infection as *plague*, bearing in mind that it very likely is not.
 
@@ -87,7 +87,12 @@ Still in [Chapter 52](http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:
 > The bodies of dying men lay one upon another, and half-dead creatures reeled about the streets and gathered round all the fountains in their longing for water. The sacred places also in which they had quartered themselves were full of corpses of persons that had died there, just as they were; for as the disaster passed all bounds, men, not knowing what was to become of them, became utterly careless of everything, whether sacred or profane. All the burial rites before in use were entirely upset, and they buried the bodies as best they could. Many from want of the proper appliances, through so many of their friends having died already, had recourse to the most shameless sepultures: sometimes getting the start of those who had raised a pile, they threw their own dead body upon the stranger's pyre and ignited it; sometimes they tossed the corpse which they were carrying on the top of another that was burning, and so went off.
 
 This is reminiscent of paintings by [Michel Serre](https://en.wikipedia.org/wiki/Michel_Serre) describing the situation during the [1720 plague of Marseille](https://en.wikipedia.org/wiki/Great_Plague_of_Marseille).
-![Chevalier de Roze a la Tourette - Michel Serre](https://upload.wikimedia.org/wikipedia/commons/5/5b/Chevalier_Roze_%C3%A0_la_Tourette_-_1720.PNG)
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        ![Chevalier de Roze a la Tourette - Michel Serre](https://upload.wikimedia.org/wikipedia/commons/5/5b/Chevalier_Roze_%C3%A0_la_Tourette_-_1720.PNG)
+    </div>
+</div>
+
 
 Interestingly, during the 2014-2016 West Africa EVD epidemic, it is the non-breakdown of local funeral rites that was dangerous, since people were interacting with bodies that were still infectious.
 Funeral rites were not the only victims of the plague. As evidenced by [Chapter 53](http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0200:book=2:chapter=53), there was a sense of gloom and doom that led people to modify their behaviour.
