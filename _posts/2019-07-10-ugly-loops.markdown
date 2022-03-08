@@ -6,11 +6,11 @@ date:   2019-07-10
 categories: simulation r-code
 ---
 
-The other day, I posted a prototypical example of use of parLapply, somewhat more advanced than the ones in the documentation; see [here](https://julien-arino.github.io/2019/skel-parLapply).
+The other day, I posted a prototypical example of use of parLapply, somewhat more advanced than the ones in the documentation; see [here](https://julien-arino.github.io/blog/2019/skel-parLapply).
 
 Well, part of the example I gave uses one of my most biggest coding pet peaves, something that I have been fighting against ever since my MatLab days: the dreaded unnecessary *for loop*. As I was teaching myself the use of the `tictoc` library, I thought I would illustrate both.
 
-To keep in the spirit of the example in the post mentioned, we set up variations of up to two parameters, $\beta$ and $S_0$. We set base values for these parameters.
+To keep in the spirit of the example in the post mentioned, we set up variations of up to two parameters, $$\beta$$ and $$S_0$$. We set base values for these parameters.
 
 {% highlight r %}
 param = list()
