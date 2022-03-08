@@ -22,7 +22,7 @@ Concerning the *History of the Peloponnesian War*, the [Wikipedia page](https://
 
 However, let me start with a *caveat*. Here is another slide that I sometimes show.
 
-![Was it plague?](/assets/img/Plague_of_Athens_or_what.png)
+![Was it plague?](/assets/img/Plague_of_Athens_or_what.tiff)
 
 This is a small sample of the medical literature on the topic. Clearly there is a good degree of uncertainty about the actual pathogen involved and everybody seems keen to claim it is their favourite pathogen that was involved. I will refer to the infection as *plague*, bearing in mind that it very likely is not.
 
