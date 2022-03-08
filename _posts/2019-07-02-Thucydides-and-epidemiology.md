@@ -8,9 +8,11 @@ categories: epidemiology
 
 Those who have suffered through one of my talks know that when discussing the spatial and temporal spread of infectious diseases (i.e., most of the time), I typically start by showing a slide similar to this:
 
-![Thucydides](/assets/img/Thucydides_quote.png)
+<span style="display:block;text-align:center">
+    ![](/assets/img/Thucydides_quote.png)
+</span>
 
-I usually remark on the fact that this means the issue I am considering is not new and that almost two and a half millennia ago, Thucydides already gave a pretty "spatial" description of spread. I often advocate reading Thucydides. So I thought "why not make a blog post about this?".. and here is said post.
+I usually remark on the fact that this means the issue I am considering is not new and that almost two and a half millennia ago, Thucydides already gave a pretty "spatial" description of spread. I often advocate reading Thucydides; see this [blog entry](https://julien-arino.github.io/blog/2019/Thucydides-and-epidemiology/) I wrote about him. So I thought "why not make a blog post about this?".. and here is said post.
 
 ## Thucydides
 Regarding Thucydides himself, let me be lazy and just point to the [Wikipedia page](https://en.wikipedia.org/wiki/Thucydides) about him. In (very) short, Thucydides was an Athenian who lived from circa 460 BCE to circa 400 BCE. His *History of the Peloponnesian War* is often considered as the first *scholarly* history book. The book gives an account of the Peloponnesian War (431–404 BCE) between the Peloponnesian League (led by Sparta) and the Delian League (led by Athens). Thucydides himself fought in that war, he was a General for Athens. For some reason, he fell out of love and was exiled; that is when he set on writing his *History*.
@@ -22,7 +24,9 @@ Concerning the *History of the Peloponnesian War*, the [Wikipedia page](https://
 
 However, let me start with a *caveat*. Here is another slide that I sometimes show.
 
-![Was it plague?](/assets/img/Plague_of_Athens_or_what.png)
+<span style="display:block;text-align:center">
+    ![](/assets/img/Plague_of_Athens_or_what.png)
+</span>
 
 This is a small sample of the medical literature on the topic. Clearly there is a good degree of uncertainty about the actual pathogen involved and everybody seems keen to claim it is their favourite pathogen that was involved. I will refer to the infection as *plague*, bearing in mind that it very likely is not.
 
