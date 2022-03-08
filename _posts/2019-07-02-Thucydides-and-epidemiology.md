@@ -89,7 +89,7 @@ Still in [Chapter 52](http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:
 This is reminiscent of paintings by [Michel Serre](https://en.wikipedia.org/wiki/Michel_Serre) describing the situation during the [1720 plague of Marseille](https://en.wikipedia.org/wiki/Great_Plague_of_Marseille).
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        ![Chevalier de Roze a la Tourette - Michel Serre](https://upload.wikimedia.org/wikipedia/commons/5/5b/Chevalier_Roze_%C3%A0_la_Tourette_-_1720.PNG)
+        {% include figure.html path="/assets/img/Chevalier_Roze_à_la_Tourette_-_1720.png" title="Chevalier Roze à la Tourette - 1720" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
