@@ -11,6 +11,12 @@ Those who have suffered through one of my talks know that when discussing the sp
 <span style="display:block;text-align:center">
     ![](/assets/img/Thucydides_quote.png)
 </span>
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="/assets/img/Thucydides_quote.png" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
 
 I usually remark on the fact that this means the issue I am considering is not new and that almost two and a half millennia ago, Thucydides already gave a pretty "spatial" description of spread. I often advocate reading Thucydides; see this [blog entry](https://julien-arino.github.io/blog/2019/Thucydides-and-epidemiology/) I wrote about him. So I thought "why not make a blog post about this?".. and here is said post.
 
