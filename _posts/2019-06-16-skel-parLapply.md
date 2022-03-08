@@ -6,7 +6,7 @@ date:   2019-06-16 13:00:22 -0600
 categories: r-code simulation
 ---
 
-When working with students and postdocs, I often provide "skeletons", i.e., canonical examples of code that illustrate something that I want them to do in another context. Example: running some code in parallel. Here, I will carry out a very simple and naive sensitivity analysis of the value of the basic reproduction number $\mathcal{R}_0$ in the basic Kermack and McKendrick SIR model.
+When working with students and postdocs, I often provide "skeletons", i.e., canonical examples of code that illustrate something that I want them to do in another context. Example: running some code in parallel. Here, I will carry out a very simple and naive sensitivity analysis of the value of the basic reproduction number $$\mathcal{R}_0$$ in the basic Kermack and McKendrick SIR model.
 
 First, we need the function that we will evaluate for a given point in parameter space. Note that we pass parameters as a list rather than an ordered t-uple of parameters; this allows to not have to worry about the order in which parameters are presented.
 
@@ -16,7 +16,7 @@ R0 = function(p) {
 }
 {% endhighlight %}
 
-The following function converts one or several parameter values given in the list by `lapply` or `parLapply` into a value of $\mathcal{R}_0$. Note the little trick, which allows to set as many parameters as are provided in the element of the list received as argument.
+The following function converts one or several parameter values given in the list by `lapply` or `parLapply` into a value of $$\mathcal{R}_0$$. Note the little trick, which allows to set as many parameters as are provided in the element of the list received as argument.
 
 {% highlight r %}
 one_run_R0 = function(p,param) {
@@ -35,7 +35,7 @@ param$S0 = 10000
 param$gamma = 1/4.5 # Average duration of infection
 {% endhighlight %}
 
-Set up the list of parameters that are going to vary. For illustration, we do 10,000 computations for varying values of $\beta$, 10,000 for varying values of $S_0$ and 10,000 simulations for varying values of both $\beta$ and $S_0$.
+Set up the list of parameters that are going to vary. For illustration, we do 10,000 computations for varying values of $$\beta$$, 10,000 for varying values of $$S_0$$ and 10,000 simulations for varying values of both $$\beta$$ and $$S_0$$.
 
 {% highlight r %}
 nb_sims = 10000 # nb of simulations of each type
@@ -84,7 +84,7 @@ if (RUN_PARALLEL) {
 }
 {% endhighlight %}
 
-Last little piece: let us plot the range of values taken by $\mathcal{R}_0$ when the various parameters are varied, to show sensitivity of $\mathcal{R}_0$.
+Last little piece: let us plot the range of values taken by $$\mathcal{R}_0$$ when the various parameters are varied, to show sensitivity of $$\mathcal{R}_0$$.
 
 {% highlight r %}
 result = unlist(result)
