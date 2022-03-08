@@ -10,46 +10,46 @@ horizontal: false
 
 <!-- pages/teaching.md -->
 <div class="projects">
-{%- if site.enable_course_categories and page.display_categories %}
-  <!-- Display categorized courses -->
+{%- if site.enable_teaching_categories and page.display_categories %}
+  <!-- Display categorized teachings -->
   {%- for category in page.display_categories %}
   <h2 class="category">{{ category }}</h2>
-  {%- assign categorized_courses = site.courses | where: "category", category -%}
-  {%- assign sorted_courses = categorized_courses | sort: "importance" %}
-  <!-- Generate cards for each course -->
+  {%- assign categorized_teachings = site.teachings | where: "category", category -%}
+  {%- assign sorted_teachings = categorized_teachings | sort: "importance" %}
+  <!-- Generate cards for each teaching -->
   {% if page.horizontal -%}
   <div class="container">
     <div class="row row-cols-2">
-    {%- for course in sorted_courses -%}
-      {% include courses_horizontal.html %}
+    {%- for teaching in sorted_teachings -%}
+      {% include teachings_horizontal.html %}
     {%- endfor %}
     </div>
   </div>
   {%- else -%}
   <div class="grid">
-    {%- for course in sorted_courses -%}
-      {% include courses.html %}
+    {%- for teaching in sorted_teachings -%}
+      {% include teachings.html %}
     {%- endfor %}
   </div>
   {%- endif -%}
   {% endfor %}
 
 {%- else -%}
-<!-- Display courses without categories -->
-  {%- assign sorted_courses = site.courses | sort: "importance" -%}
-  <!-- Generate cards for each course -->
+<!-- Display teachings without categories -->
+  {%- assign sorted_teachings = site.teachings | sort: "importance" -%}
+  <!-- Generate cards for each teaching -->
   {% if page.horizontal -%}
   <div class="container">
     <div class="row row-cols-2">
-    {%- for course in sorted_courses -%}
-      {% include courses_horizontal.html %}
+    {%- for teaching in sorted_teachings -%}
+      {% include teachings_horizontal.html %}
     {%- endfor %}
     </div>
   </div>
   {%- else -%}
   <div class="grid">
-    {%- for course in sorted_courses -%}
-      {% include courses.html %}
+    {%- for teaching in sorted_teachings -%}
+      {% include teachings.html %}
     {%- endfor %}
   </div>
   {%- endif -%}
