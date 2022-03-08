@@ -109,4 +109,4 @@ Here are the results:
 Clearly, it would be better here to use a parallel version of `apply` operating on matrix rows than on lists, since this would not require a further conversion to a list. But the cases are not always this structured.
 
 
-Ah, yes, one last thing: when $n$ is large, some of the variables can become quite large (the last matrix by itself is 10.1 Gb). Unless you have pretty decent RAM, don't try this at home.
+Ah, yes, one last thing: when $$n$$ is large, some of the variables can become quite large (the last matrix by itself is 10.1 Gb). Unless you have pretty decent RAM, don't try this at home.
