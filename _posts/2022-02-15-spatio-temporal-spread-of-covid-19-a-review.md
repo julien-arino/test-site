@@ -79,7 +79,11 @@ legend(x = "bottomright", legend = c("2019", "2020", "2021", "2022"),
        inset = 0.01)
 {% endhighlight %}
 
-![TSA checks](/assets_pics/TSA_screens.png)
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="/assets/img/TSA_screens.png" title="TSA checks" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
 
 Okay, this is a little confusing. The most recent data is in the top right, the blue curve over the red one.
 
@@ -145,6 +149,11 @@ ma <- function(x, n = 7, sides = 1) {
 Note that we specify that the filter function is the one from the `stats` library (the default one). This is important in case we use the `dplyr` library, which redefines the function.
 We get the following figure, in which the red is the moving average
 
-![TSA checks as time series](/assets_pics/TSA_screens_ts.png)
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="/assets/img/TSA_screens_ts.png" title="TSA checks as time series" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
 
 Whether the cutoffs are appropriate remains to be seen..
