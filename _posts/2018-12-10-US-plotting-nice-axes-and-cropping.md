@@ -6,7 +6,7 @@ date:   2018-12-10 00:39:22 -0600
 categories: r-code
 ---
 
-I was getting lost when editing the post about [US measles cases data](https://julien-arino.github.io/2018/US-measles-cases) and so decided recently to cut that post in two. The one on measles is about .. measles. Here, I discuss some code I use to make the y-axis in R figures look a bit better than it does by default. I also show a function for cropping results.
+I was getting lost when editing the post about [US measles cases data](https://julien-arino.github.io/blog/2018/US-measles-cases) and so decided recently to cut that post in two. The one on measles is about .. measles. Here, I discuss some code I use to make the y-axis in R figures look a bit better than it does by default. I also show a function for cropping results.
 
 ## Making a nice y-axis for plots
 
@@ -69,7 +69,7 @@ plot_hr_yaxis <- function(x, y, ...) {
 }
 {% endhighlight %}
 
-The function `plot_hr_yaxis` returns the parameters for the modified y-axis, so that they can be further used in the plot. To use this function, you need to call it on your data. I show the use with the code for the first of the two plots in the post [US measles cases data](https://julien-arino.github.io/2018/US-measles-cases). The data frame `measles` contains the loaded measles data.
+The function `plot_hr_yaxis` returns the parameters for the modified y-axis, so that they can be further used in the plot. To use this function, you need to call it on your data. I show the use with the code for the first of the two plots in the post [US measles cases data](https://julien-arino.github.io/blog/2018/US-measles-cases). The data frame `measles` contains the loaded measles data.
 
 {% highlight r %}
 png(file = "measles_US_1944_2019.png",
@@ -99,9 +99,13 @@ dev.off()
 
 Note that here, the call to `polygon` does not involve the "real" y-axis, just the coordinates obtained from `par("usr")`. In general, one would have to multiply all $y$ values by `y_axis$factor`, as is done in the call to `lines` at the end of the code block.
 
-This gives the first figure in the post [US measles cases data](https://julien-arino.github.io/2018/US-measles-cases), reproduced here for convenience.
+This gives the first figure in the post [US measles cases data](https://julien-arino.github.io/blog/2018/US-measles-cases), reproduced here for convenience.
 
-![Reported cases of measles in the USA 1944-2019](/assets_pics/measles_US_1944_2019.png)
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="/assets/img/measles_US_1944_2019.png" title="Reported cases of measles in the USA 1944-2019" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
 
 
 ## Cropping pdf and png results
