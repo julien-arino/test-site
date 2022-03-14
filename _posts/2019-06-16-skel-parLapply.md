@@ -93,3 +93,10 @@ result.df = data.frame(beta = result[1:nb_sims],
                        beta_S0 = result[(2*nb_sims+1):(3*nb_sims)])
 boxplot(result.df)
 {% endhighlight %}
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="/assets/img/parLapply_example_plot.png" title="Numerical sensitivity of R0 to parameters" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
