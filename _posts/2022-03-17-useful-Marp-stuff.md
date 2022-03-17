@@ -6,8 +6,6 @@ date:   2022-03-17
 categories: presentations
 ---
 
-# Some useful Marp stuff
-
 I posted some time back about using Marp to make presentations (see [here](https://julien-arino.github.io/blog/2022/Marp-for-slides/)). In keeping with the idea that this blog is mostly for myself as a space to store stuff that is useful to me, here is a compendium of commands that I have found useful when preparing slides using Marp. I will edit this post regularly as I discover new tricks, rather than create another entry.
 
 As I mentioned in my original post about Marp, there is a gap between the way Marp is documented and my capacity to understand said documentation, but altogether: going further than what is doable using straight markdown is going to require using html/css code. So what follows is mostly in these formats. Note also that I am detailing stuff that works within Visual Studio Code, not using the command line version of Marp. The latter is more powerful and versatile but does not fit my current workflow.
@@ -46,7 +44,7 @@ but I found that this results in a massive (1 MB) html file. Secondly, in the sa
 
 ## Centering figures
 
-Another frustration coming from Beamer is how hard it is to center a figure in Marp. A variety of ways are available, but I found that the one that is easiest is to include something like
+Another frustration when switching from Beamer to Marp is that there is no easy `\begin{center}` type command to center a figure in Marp. A variety of ways are available, but I found that the one that is easiest is to include something like
 
 {% highlight html %}
 <style>
@@ -76,7 +74,8 @@ border-radius:20px;
 padding:10px 20px 10px 20px;
 box-shadow: 0px 1px 5px #999;">
 
-Some beautiful theorem (make sure to leave an empty line above this text if you want markdown to work).
+Some beautiful theorem (make sure to leave an empty line above the first line
+of text if you want markdown to work).
 </div>
 {% endhighlight %}
 
@@ -87,7 +86,7 @@ Now, here I have not done my homework: surely, there is a way to define this as 
 This is my biggest frustration so far with using Marp. In many talks, I do not really care for this, but as part of a course that I am preparing (more on this in another post), I really need equation numbers. Whether it is MathJax or KaTeX, support for equation numbers is still sketchy altogether, but I find that Marp adds one level of complication. What I have managed to make work, at present, goes thusly. 
 
 - Switch the LaTeX interpreter from KaTeX to MathJax.
-- Manually (grr) tag the equations with the number you want.
+- Manually (grr) tag the equations with the number you want. Note the `\qquad` commands on the first line: if you do not use them in an `align` type environment, the equation numbers will be over the equations themselves.
 
 {% highlight latex %}
 $$
@@ -103,3 +102,19 @@ $$
 - Use `$\eqref{sys:SLIR_dL}$` to refer to, say, the second equation. Yes, the dollar signs need to be there..
 
 Yes, this is bad. It is particularly bad, actually, because I like the `subequations` environment and this is supported in neither KaTeX nor MathJax. I am hopeful that things will evolve in the future and will update this post if I find better ways to do this, but for now, this seems to be the way to do it.
+
+Remark that if you are not after a `subequations` type numbering, then you can do
+
+{% highlight latex %}
+$$
+\label{sys:SLIR}
+\begin{align*}
+S' &= d(N-S)-f(S,I,N)+\nu R\qquad\qquad \\
+L' &= f(S,I,N) -(d+\varepsilon)L \\
+I' &= \varepsilon L -(d+\gamma)I \\
+R' &= \gamma I-(d+\nu)R
+\end{align*}
+$$
+{% endhighlight %}
+
+This is a bit better. But no `subequations`..
