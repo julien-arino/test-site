@@ -13,18 +13,20 @@ Je teste..
   {% for row in site.data.presentations %}
     {% if forloop.first %}
     <tr>
-      {% for pair in row %}
-        {% if pair[0]=="event_type" or pair[0]=="event_year" %}
-          <th>{{ pair[0] }}</th>
-        {% endif %}
-      {% endfor %}
+      <th>Date</th>
+      <th>Type</th>
+      <th>Talk title</th>
+      <th>Talk context</th>
+      <th>Talk location</th>
     </tr>
     {% endif %}
 
     {% tablerow pair in row %}
-      {% if pair[0]=="event_type" or pair[0]=="event_year" %}
-        {{ pair[1] }}
-      {% endif %}
+      <td> {{ row["event_year"] }}-{{ row["event_month"]}}-{{ row["event_day"]}} </td>
+      <td> {{ row["event_type"] }} </td>
+      <td> {{ row["event_talk_title"] }} </td>
+      <td> {{ row["event_name"] }} </td>
+      <td> {{ row["event_location"] }} </td>
     {% endtablerow %}
   {% endfor %}
 </table>
