@@ -21,13 +21,11 @@ Je teste..
     </tr>
     {% endif %}
 
-    {% tablerow pair in row %}
-      <td> {{ row["event_year"] }}-{{ row["event_month"]}}-{{ row["event_day"]}} </td>
-      <td> {{ row["event_type"] }} </td>
-      <td> {{ row["event_talk_title"] }} </td>
-      <td> {{ row["event_name"] }} </td>
-      <td> {{ row["event_location"] }} </td>
-    {% endtablerow %}
+    <td> {{ row["event_year"] }}-{{ row["event_month"]}}-{{ row["event_day"]}} </td>
+    <td> {{ row["event_type"] }} </td>
+    <td> {{ row["event_talk_title"] }} </td>
+    <td> {{ row["event_name"] }} </td>
+    <td> {{ row["event_location"] }} </td>
   {% endfor %}
 </table>
 
