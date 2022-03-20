@@ -6,8 +6,6 @@ description: List of presentations I have given
 nav: true
 ---
 
-Je teste..
-
 <!--- {% increment my_row %} --->
 
 <table class="table table-sm">
@@ -25,7 +23,11 @@ Je teste..
 
     <tr>
       <td>{% increment my_row %}</td>
-      <td>{{ row["event_year"] }}-{{ row["event_month"]}}-{{ row["event_day"]}}</td>
+      {% if row["event_day"].size > 0 %}
+        <td>{{ row["event_year"] }}-{{ row["event_month"]}}-{{ row["event_day"]}}</td>
+      {% else %}
+        <td>{{ row["event_year"] }}-{{ row["event_month"]}}</td>
+      {% endif %}
       <td>{{ row["event_type"] }}</td>
       <td>{{ row["event_talk_title"] }}</td>
       <td>{{ row["event_name"] }}</td>
