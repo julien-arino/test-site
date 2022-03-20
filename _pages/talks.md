@@ -9,6 +9,15 @@ nav: true
 <!--- {% increment my_row %} --->
 
 <table class="table table-sm">
+  <colgroup>
+    <col span="1" style="width: 5%;">
+    <col span="1" style="width: 10%;">
+    <col span="1" style="width: 10%;">
+    <col span="1" style="width: 30%;">
+    <col span="1" style="width: 20%;">
+    <col span="1" style="width: 15%;">
+  </colgroup>
+
   {% for row in site.data.presentations %}
     {% if forloop.first %}
     <tr>
