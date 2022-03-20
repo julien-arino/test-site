@@ -10,12 +10,12 @@ nav: true
 
 <table class="table table-sm">
   <colgroup>
-    <col span="1" style="width: 20px;">
     <col span="1" style="width: 30px;">
     <col span="1" style="width: 50px;">
+    <col span="1" style="width: 50px;">
     <col span="1" style="width: 200px;">
-    <col span="1" style="width: 100px;">
-    <col span="1" style="width: 100px;">
+    <col span="1" style="width: 150px;">
+    <col span="1" style="width: 150px;">
   </colgroup>
 
   {% for row in site.data.presentations %}
@@ -36,11 +36,12 @@ nav: true
         <td>{{ row["event_year"] }}-{{ row["event_month"]}}-{{ row["event_day"]}}</td>
       {% else -%}
         <td>{{ row["event_year"] }}-{{ row["event_month"]}}</td>
-      {% endif %}
+      {% endif -%}
       <td>{{ row["event_type"] }}</td>
       <td>{{ row["event_talk_title"] }}</td>
       <td>{{ row["event_name"] }}</td>
       <td>{{ row["event_location"] }}</td>
     </tr>
   {% endfor -%}
+
 </table>
