@@ -38,7 +38,11 @@ nav: true
         <td>{{ row["event_year"] }}-{{ row["event_month"]}}</td>
       {% endif -%}
       <td>{{ row["event_type"] }}</td>
-      <td>{{ row["event_talk_title"] }}</td>
+      {% if row["event_presentation_file"].size > 0 -%}
+        <td><a href="{{ row["event_presentation_file"] -}}">{{ row["event_talk_title"] }}</a></td>
+      {% else -%}
+        <td>{{ row["event_talk_title"] }}</td>
+      {% endif -%}
       <td>{{ row["event_name"] }}</td>
       <td>{{ row["event_location"] }}</td>
     </tr>
