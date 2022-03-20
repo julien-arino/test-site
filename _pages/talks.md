@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /presentations/
+permalink: /talks/
 title: talks
 description: A list of presentations
 nav: true
