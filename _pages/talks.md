@@ -8,7 +8,7 @@ nav: true
 
 Je teste..
 
-{% increment my_row %}
+<!--- {% increment my_row %} --->
 
 <table>
   {% for row in site.data.presentations %}
