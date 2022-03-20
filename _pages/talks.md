@@ -10,8 +10,8 @@ nav: true
 
 <table class="table table-sm">
   <colgroup>
-    <col span="1" style="width: 30px;">
-    <col span="1" style="width: 50px;">
+    <col span="1" style="width: 25px;">
+    <col span="1" style="width: 70px;">
     <col span="1" style="width: 50px;">
     <col span="1" style="width: 200px;">
     <col span="1" style="width: 150px;">
