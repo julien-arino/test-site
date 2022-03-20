@@ -10,7 +10,7 @@ Je teste..
 
 <!--- {% increment my_row %} --->
 
-<table>
+<table class="table table-sm">
   {% for row in site.data.presentations %}
     {% if forloop.first %}
     <tr>
@@ -33,18 +33,3 @@ Je teste..
     </tr>
   {% endfor %}
 </table>
-
-
-{% for row in site.data.presentations %}
-  {% if forloop.first %}
-    | # | Date | Type | Talk title | Talk context | Talk location |
-    |:---:|:---|:-----|:-----------|:-------------|:--------------|
-  {% endif %}
-
-  | {% increment my_row %} 
-  | {{ row["event_year"] }}-{{ row["event_month"]}}-{{ row["event_day"]}}
-  | {{ row["event_type"] }}
-  | {{ row["event_talk_title"] }}
-  | {{ row["event_name"] }}
-  | {{ row["event_location"] }} |
-{% endfor %}
