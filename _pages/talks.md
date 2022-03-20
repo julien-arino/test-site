@@ -2,9 +2,11 @@
 layout: page
 permalink: /talks/
 title: talks
-description: List of presentations I have given
+description: A list of presentations I have given
 nav: true
 ---
+
+If a title is clickable, this means slides are available. If an event title is clickable, the link will lead to the event website.
 
 <!--- {% increment my_row %} --->
 
