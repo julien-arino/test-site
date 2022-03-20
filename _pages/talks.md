@@ -8,11 +8,13 @@ nav: true
 
 Je teste..
 
+{% increment my_row %}
 
 <table>
   {% for row in site.data.presentations %}
     {% if forloop.first %}
     <tr>
+      <th>#</th>
       <th>Date</th>
       <th>Type</th>
       <th>Talk title</th>
@@ -22,11 +24,12 @@ Je teste..
     {% endif %}
 
     <tr>
-      <td> {{ row["event_year"] }}-{{ row["event_month"]}}-{{ row["event_day"]}} </td>
-      <td> {{ row["event_type"] }} </td>
-      <td> {{ row["event_talk_title"] }} </td>
-      <td> {{ row["event_name"] }} </td>
-      <td> {{ row["event_location"] }} </td>
+      <td>{% increment my_row %}</td>
+      <td>{{ row["event_year"] }}-{{ row["event_month"]}}-{{ row["event_day"]}}</td>
+      <td>{{ row["event_type"] }}</td>
+      <td>{{ row["event_talk_title"] }}</td>
+      <td>{{ row["event_name"] }}</td>
+      <td>{{ row["event_location"] }}</td>
     </tr>
   {% endfor %}
 </table>
