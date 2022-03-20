@@ -19,13 +19,13 @@ nav: true
       <th>Talk context</th>
       <th>Talk location</th>
     </tr>
-    {% endif %}
+    {% endif -%}
 
     <tr>
       <td>{% increment my_row %}</td>
-      {% if row["event_day"].size > 0 %}
+      {% if row["event_day"].size > 0 -%}
         <td>{{ row["event_year"] }}-{{ row["event_month"]}}-{{ row["event_day"]}}</td>
-      {% else %}
+      {% else -%}
         <td>{{ row["event_year"] }}-{{ row["event_month"]}}</td>
       {% endif %}
       <td>{{ row["event_type"] }}</td>
@@ -33,5 +33,5 @@ nav: true
       <td>{{ row["event_name"] }}</td>
       <td>{{ row["event_location"] }}</td>
     </tr>
-  {% endfor %}
+  {% endfor -%}
 </table>
