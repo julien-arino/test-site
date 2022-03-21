@@ -2,9 +2,9 @@
 layout: page
 title: teaching
 permalink: /teaching/
-description: Material for some courses current and past. For ongoing courses, information specific to a term is on UMLearn.
+description: Material for some courses both current or recent and past. For ongoing courses, information specific to a term is on UMLearn.
 nav: true
-display_categories: [current, past]
+display_categories: [recent, older]
 horizontal: false
 ---
 
