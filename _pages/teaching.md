@@ -11,45 +11,45 @@ horizontal: false
 <!-- pages/teaching.md -->
 <div class="projects">
 {%- if site.enable_teaching_categories and page.display_categories %}
-  <!-- Display categorized teachings -->
+  <!-- Display categorized teaching -->
   {%- for category in page.display_categories %}
   <h2 class="category">{{ category }}</h2>
-  {%- assign categorized_teachings = site.teachings | where: "category", category -%}
-  {%- assign sorted_teachings = categorized_teachings | sort: "importance" %}
+  {%- assign categorized_teaching = site.teaching | where: "category", category -%}
+  {%- assign sorted_teaching = categorized_teaching | sort: "importance" %}
   <!-- Generate cards for each teaching -->
   {% if page.horizontal -%}
   <div class="container">
     <div class="row row-cols-2">
-    {%- for teaching in sorted_teachings -%}
-      {% include teachings_horizontal.html %}
+    {%- for teaching in sorted_teaching -%}
+      {% include teaching_horizontal.html %}
     {%- endfor %}
     </div>
   </div>
   {%- else -%}
   <div class="grid">
-    {%- for teaching in sorted_teachings -%}
-      {% include teachings.html %}
+    {%- for teaching in sorted_teaching -%}
+      {% include teaching.html %}
     {%- endfor %}
   </div>
   {%- endif -%}
   {% endfor %}
 
 {%- else -%}
-<!-- Display teachings without categories -->
-  {%- assign sorted_teachings = site.teachings | sort: "importance" -%}
+<!-- Display teaching without categories -->
+  {%- assign sorted_teaching = site.teaching | sort: "importance" -%}
   <!-- Generate cards for each teaching -->
   {% if page.horizontal -%}
   <div class="container">
     <div class="row row-cols-2">
-    {%- for teaching in sorted_teachings -%}
-      {% include teachings_horizontal.html %}
+    {%- for teaching in sorted_teaching -%}
+      {% include teaching_horizontal.html %}
     {%- endfor %}
     </div>
   </div>
   {%- else -%}
   <div class="grid">
-    {%- for teaching in sorted_teachings -%}
-      {% include teachings.html %}
+    {%- for teaching in sorted_teaching -%}
+      {% include teaching.html %}
     {%- endfor %}
   </div>
   {%- endif -%}
