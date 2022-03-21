@@ -71,10 +71,10 @@ In [Chapter 50](http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.0
 Moving on to [Chapter 51](http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0200:book=2:chapter=51):
 > Such then, if we pass over the varieties of particular cases, which were many and peculiar, were the general features of the distemper. Meanwhile the town enjoyed an immunity from all the ordinary disorders; or if any case occurred, it ended in this. Some died in neglect, others in the midst of every attention. No remedy was found that could be used as a specific; for what did good in one case, did harm in another. Strong and weak constitutions proved equally incapable of resistance, all alike being swept away, although dieted with the utmost precaution. By far the most terrible feature in the malady was the dejection which ensued when anyone felt himself sickening, for the despair into which they instantly fell took away their power of resistance, and left them a much easier prey to the disorder; besides which, there was the awful spectacle of men dying like sheep, through having caught the infection in nursing each other. This caused the greatest mortality. On the one hand, if they were afraid to visit each other, they perished from neglect; indeed many houses were emptied of their inmates for want of a nurse: on the other, if they ventured to do so, death was the consequence. This was especially the case with such as made any pretensions to goodness: honor made them unsparing of themselves in their attendance in their friends' houses, where even the members of the family were at last worn out by the moans of the dying, and succumbed to the force of the disaster.
 
-Interestingly, some temporary immunity seemed to arise and was noticed.
+Some temporary immunity seemed to arise and was noticed.
 > Yet it was with those who had recovered from the disease that the sick and the dying found most compassion. These knew what it was from experience, and had now no fear for themselves; for the same man was never attacked twice—never at least fatally.
 
-As with many things in that era, proper observations and conclusions were extrapolated perhaps a little too much.
+As with many things in that era, proper observations and conclusions were extrapolated perhaps a little too much. [Edit in 2022: Although it should noted that during COVID-19, some individuals used this reasoning.]
 > And such persons not only received the congratulations of others, but themselves also, in the elation of the moment, half entertained the vain hope that they were for the future safe from any disease whatsoever.
 
 ### Going spatio-temporal again
@@ -106,7 +106,7 @@ Finally, [Chapter 54](http://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:
 >
 >So a dispute arose as to whether dearth and not death had not been the word in the verse; but at the present juncture, it was of course decided in favor of the latter; for the people made their recollection fit in with their sufferings. I fancy, however, that if another Dorian war should ever afterwards come upon us, and a dearth should happen to accompany it, the verse will probably be read accordingly. The oracle also which had been given to the Lacedaemonians was now remembered by those who knew of it. When the God was asked whether they should go to war, he answered that if they put their might into it, victory would be theirs, and that he would himself be with them. With this oracle events were supposed to tally. For the plague broke out so soon as the Peloponnesians invaded Attica, and never entering Peloponnese （not at least to an extent worth noticing）, committed its worst ravages at Athens, and next to Athens, at the most populous of the other towns.
 
-Thucydides and his contemporaries can probably be excused: medical knowledge at the time was quite rudimentary, so why not involve oracles? And in their defense, people were not much more rational during the Great Plagues of the middle to late Middle Age in Europe.
-Finally, Thucydides concludes with the statement
+Thucydides and his contemporaries can probably be excused: medical knowledge at the time was quite rudimentary, so why not involve oracles? And in their defence, people were not much more rational during the Great Plagues of the middle to late Middle Age in Europe.
+Finally, Thucydides concludes with a somewhat ominous and definitive:
 
 > Such was the history of the plague.
