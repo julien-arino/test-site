@@ -83,7 +83,7 @@
           {%- if entry.month -%}
             {%- capture entrymonth -%}{{ " (" }}{{ entry.month | capitalize }}{%- endcapture -%}
             {%- capture entryyear -%}{{ " " }}{{entry.year}}{{ ")" }}{%- endcapture -%}
-          {%- elsif entry.year -%}
+          {%- else -%}
             {%- capture entryyear -%}{{ " (" }}{{entry.year}}{{ ")" }}{%- endcapture -%}
           {%- endif -%}
           {%- capture periodical -%}{{ entrytype }}{{ entrymonth }}{{ entryyear }}{%- endcapture -%}
