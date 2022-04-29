@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "A short course in mathematical epidemiology"
+title:  "A short Mathematical Epidemiology course"
 description: "Lecture notes and videos of the 3MC short course on Mathematical Epidemiology taught by Julien Arino at NWU, South Africa, in April 2022"
 date:   2022-04-29
 categories: presentations
