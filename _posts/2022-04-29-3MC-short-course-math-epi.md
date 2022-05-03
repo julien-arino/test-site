@@ -6,9 +6,9 @@ date:   2022-04-29
 categories: presentations
 ---
 
-I recently (early April 2022) taught a short course on Mathematical Epidemiology at [North-West University](https://www.nwu.ac.za/) in Potchefstroom in South Africa. The course was part of the Mathematical Modeling Mini-Courses (3MC) series organised by Patrick M Tchepmo Djomegni (North-West University) and Mahamat S Daoussa Haggar (University of N'Djamena, Tchad).
+I recently (early April 2022) taught a short course on Mathematical Epidemiology at [North-West University](https://www.nwu.ac.za/) in Potchefstroom in South Africa. The course was part of the [Mathematical Modeling Mini-Courses (3MC)](https://natural-sciences.nwu.ac.za/paa/3MC) series organised by Patrick M Tchepmo Djomegni (North-West University) and Mahamat S Daoussa Haggar (University of N'Djamena, Tchad).
 
-Course material, including slides and code, is available on this [GitHub repo](https://julien-arino.github.io/3MC-course-epidemiological-modelling/). Videos were recorded during the event but I am re-recording them because of issues that arose during recording; the new videos are party of this [YouTube playlist](https://youtube.com/playlist?list=PLfRaznSpWo2sHwiQ04IT5STYdwarcMtRA).
+Course material, including slides and code, is available on this [GitHub repo](https://julien-arino.github.io/3MC-course-epidemiological-modelling/). Videos were recorded during the event but I am re-recording them because of issues that arose during recording; the new videos are part of this [YouTube playlist](https://youtube.com/playlist?list=PLfRaznSpWo2sHwiQ04IT5STYdwarcMtRA).
 
 The course involved both regular lectures and practicums (tutorial type lectures). The links are to the YouTube videos (with, at this time, only the videos with a displayed duration being online).
 
