@@ -18,11 +18,11 @@ The course involved both regular lectures and practicums (tutorial type lectures
 - Lecture 03: [Spread of infections in groups / in space](https://youtu.be/Jz317w81oZY) - 56:45
 - Lecture 04: [Group models](https://youtu.be/j63HwBbapHE) - 29:21
 - Lecture 05: [Metapopulation epidemic models](https://youtu.be/wk64L-ZEOUM) - 1:43:34
-- Lecture 06: [Stochastic aspects in the spread of epidemics]()
+- Lecture 06: [Stochastic aspects in the spread of epidemics](https://youtu.be/ApPSTJfQN74) - 1:01:19
 - Lecture 07: [Stochastic epidemic models]()
 - Lecture 08: [Agent-based models]()
 - Lecture 09: [Some recent mathematical models for Covid-19, HIV/AIDS, TB, Hepatitis, Malaria]()
 
-- Practicum 01: [Introduction to R. Collecting data. Solving ODEs in R]()
+- Practicum 01: [Introduction to R. Collecting data. Solving ODEs in R](https://youtu.be/nzzugOQuaro) - 1:59:56
 - Practicum 02: [Model analysis, studying large-scale models in R]()
 - Practicum 03: [Analysis, studying stochastic models in R. Simulating agent-based models]()
