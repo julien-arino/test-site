@@ -8,9 +8,9 @@ categories: presentations
 
 I recently (early April 2022) taught a short course on Mathematical Epidemiology at [North-West University](https://www.nwu.ac.za/) in Potchefstroom in South Africa. The course was part of the [Mathematical Modeling Mini-Courses (3MC)](https://natural-sciences.nwu.ac.za/paa/3MC) series organised by Patrick M Tchepmo Djomegni (North-West University) and Mahamat S Daoussa Haggar (University of N'Djamena, Tchad).
 
-Course material, including slides and code, is available on this [GitHub repo](https://julien-arino.github.io/3MC-course-epidemiological-modelling/). Videos were recorded during the event but were re-recorded because of issues that arose during recording; the new videos are part of this [YouTube playlist](https://youtube.com/playlist?list=PLfRaznSpWo2sHwiQ04IT5STYdwarcMtRA).
+Videos were recorded during the event but were re-recorded because of issues that arose during recording; the new videos are part of this [YouTube playlist](https://youtube.com/playlist?list=PLfRaznSpWo2sHwiQ04IT5STYdwarcMtRA).
 
-The course involved both regular lectures and practicums (tutorial type lectures). The links are to the YouTube videos.
+The course involved both regular lectures and practicums (tutorial type lectures). The links are to the YouTube videos (see this [GitHub repo](https://julien-arino.github.io/3MC-course-epidemiological-modelling/) for the slides, code and further information), which last a total of just over 15 hours.
 
 - Lecture 00: [Course organisation](https://youtu.be/MYBSTv1dWRA) - 21:16
 - Lecture 01: [History of epidemics and Historical epidemics](https://youtu.be/StIRQIT0WSo) - 47:13
