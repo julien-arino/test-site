@@ -7,6 +7,7 @@ subtitle: Mathematical epidemiologist
 profile:
   align: right
   image: prof_pic.jpg
+  image_circular: false # crops the image to make it circular
   address: >
     <p>432 Machray Hall</p>
     <p>University of Manitoba</p>

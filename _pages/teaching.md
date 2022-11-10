@@ -6,6 +6,7 @@ description: Material for some courses both current or recent and past. For ongo
 nav: true
 display_categories: [recent, older]
 horizontal: false
+nav_order: 5
 ---
 
 <!-- pages/teaching.md -->
