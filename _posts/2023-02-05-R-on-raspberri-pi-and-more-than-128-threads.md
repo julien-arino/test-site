@@ -34,7 +34,7 @@ Download the `R` source code from [here](https://cran.r-project.org/sources.html
 ```c
 #define NCONNECTIONS 128
 ```
-with whatever limit you want to impose. There is some discussion [here](https://github.com/HenrikBengtsson/Wishlist-for-R/issues/28) on potential issues related with the number chosen; in complete ignorance of these issues, I decided to pick 1024.
+with whatever limit you want to impose. There is some discussion [here](https://github.com/HenrikBengtsson/Wishlist-for-R/issues/28) on potential issues related to the number chosen; in complete ignorance of these issues, I decided to pick 1024.
 
 Then `configure`, `make` (`make -j4`, perhaps) and `sudo make install` and you are in business. One remark, though: I prefer for the `R` executables and libraries to reside in `/usr` rather than `/usr/local` (for consistency with `deb` install of the standard code). Also, if you are going to run `rstudio-server`, you **must** compile for a shared `R` library. So, in short, instead of a simple `./configure`, I ran
 ```bash
