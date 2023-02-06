@@ -54,16 +54,15 @@ node2 <- '192.168.0.52'
 node3 <- '192.168.0.53'
 node4 <- '192.168.0.54'
 machineAddresses <- list(
-  list(host = node0, user='jarino', ncore = 2),
-  list(host = node1, user='jarino', ncore = 64),
-  list(host = node2, user='jarino', ncore = 64),
-  list(host = node3, user='jarino', ncore = 64),
-  list(host = node4, user='jarino', ncore = 125)
+  list(host = node0, user = 'jarino', ncore = 2),
+  list(host = node1, user = 'jarino', ncore = 64),
+  list(host = node2, user = 'jarino', ncore = 64),
+  list(host = node3, user = 'jarino', ncore = 64),
+  list(host = node4, user = 'jarino', ncore = 125)
 )
 spec <- lapply(machineAddresses,
                function(machine) {
-                 rep(list(list(host=machine$host,
-                               user=machine$user)),
+                 rep(list(list(host=machine$host, user=machine$user)),
                      machine$ncore)
                })
 spec <- unlist(spec, recursive=FALSE)
@@ -79,7 +78,7 @@ if(!is.null(parallelCluster)) {
 
 Then, calling `test_cluster.R` this code and running it from the command line,
 ```bash
-jarino@pipi:~/CODE$ Rscript test_cluster.R 
+jarino@node0:~/CODE$ Rscript test_cluster.R 
 socket cluster with 319 nodes on hosts ‘192.168.0.50’, ‘192.168.0.51’, ‘192.168.0.52’, ‘192.168.0.53’, ‘192.168.0.54’
 ```
 So we are good! For comparison, running from a node with a "standard" `R` without the number of sockets increased (modifying the head node to be `node1`), we get the usual error:
