@@ -28,7 +28,7 @@ This is when I hit the "125+3 sockets in `R`" issue the first time: my code was 
 
 ## Compiling `R` to remove the 125+3 sockets limitation
 
-Besides using **all** threads on the 3990X, I am also keen to drive some of the computations from a designated node. I have been meaning to do this for quite a while, but this was rather low on my priority list. (I also want to play around with solutions such as `slurm` or `htcondor`, but this will be for later.)  And here, the 125+3 sockets pops up again: as far as I understand it, the head node needs as many sockets as threads it is talking to, i.e., 320 in my case. 
+Besides using **all** threads on the 3990X, I am also keen to drive all computations from a single designated node (when warranted, of course). I have been meaning to do this for quite a while, but this was rather low on my priority list. (I also want to play around with solutions such as `slurm` or `htcondor`, but this will be for later.)  And here, the 125+3 sockets pops up again: as far as I understand it, the head node needs as many sockets as threads it is talking to, i.e., 320 in my case. 
 
 I have an old refurbished Dell Precision T7600 with two 8 cores E5-2690 Xeons and 128 GB of RAM that can be the head node. But what is the fun in that when I also have a Pi to play with? So, now that I have a bit more time, I decided to bite the bullet and try things out. 
 
