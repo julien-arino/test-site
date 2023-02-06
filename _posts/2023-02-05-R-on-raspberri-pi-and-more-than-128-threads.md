@@ -97,5 +97,5 @@ Calls: <Anonymous> -> cleanup -> loadNamespace -> readRDS -> gzfile
 ```
 
 Two final remarks.
-1. The call to `makeCluster` can be quite lengthy (several minutes), even in this simple case with no functions or libraries to declare to the workers, so it is important to decide whether this level of parallelisation is required; if not, things may run much faster on 4 separate computers with result agregation as described earlier. This will be for another day.. 
+1. The call to `makeCluster` can be quite lengthy (several minutes), even in this simple case with no functions or libraries to declare to the workers, so it is important to decide whether this level of parallelisation is required; if not, things may run much faster on 4 separate computers with result agregation as described earlier.
 2. Clearly, this setup will require, in most instances, to have the code running on the compute nodes store the result locally there rather than return results to the head node. Indeed, only small sized return values would not quickly overwhelm the Pi's small RAM.
