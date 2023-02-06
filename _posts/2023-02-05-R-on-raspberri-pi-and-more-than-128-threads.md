@@ -3,7 +3,7 @@ layout: post
 title:  "Compiling R on a Raspberry Pi and getting rid of the 128 threads limitation"
 description: "Some considerations on compiling R on a Raspberry Pi to get rid of the 128 threads limitation"
 date:   2023-02-05
-categories: programming
+categories: r-code
 ---
 
 Does that title sound confusing? It should! Clearly, a 4 threaded Raspberry Pi should not hit that annoying "feature" baked in `R` whereby the number of sockets is limited to 125+3. Except that yes, it can, when the Pi used as the head node on a cluster.
