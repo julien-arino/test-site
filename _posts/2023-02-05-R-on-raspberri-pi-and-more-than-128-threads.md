@@ -54,16 +54,11 @@ node2 <- '192.168.0.52'
 node3 <- '192.168.0.53'
 node4 <- '192.168.0.54'
 machineAddresses <- list(
-  list(host = node0, user='jarino',
-       ncore = 2),
-  list(host = node1, user='jarino',
-       ncore = 64),
-  list(host = node2, user='jarino',
-       ncore = 64),
-  list(host = node3, user='jarino',
-       ncore = 64),
-  list(host = node4, user='jarino',
-       ncore = 125)
+  list(host = node0, user='jarino', ncore = 2),
+  list(host = node1, user='jarino', ncore = 64),
+  list(host = node2, user='jarino', ncore = 64),
+  list(host = node3, user='jarino', ncore = 64),
+  list(host = node4, user='jarino', ncore = 125)
 )
 spec <- lapply(machineAddresses,
                function(machine) {
