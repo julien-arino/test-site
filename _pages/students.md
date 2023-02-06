@@ -8,6 +8,8 @@ nav: true
 
 ## Postdoctoral fellows
 ### Current
+- Jhoana Romero. Department of Mathematics, University of Manitoba, currently working in Montreal. Co-supervised with Bouchra Nasri (U de M).
+- Suzan Farhang Sardroodi. Department of Mathematics, University of Manitoba.
 ### Former
 - Nicolas Bajeux. Department of Mathematics, University of Manitoba.
 - Ling Xue. Department of Mathematics, University of Manitoba. PIMS Postdoctoral Fellow. Co-supervision with Felicia Magpantay (Queen's U.). Currently Assistant Professor, Harbin Engineering University.
@@ -17,7 +19,12 @@ nav: true
 
 ## Graduate students
 ### Current
-- Adriana-Stefania Ciupeanu. IIS PhD and VADA Program student, Departments of Mathematics and Statistics, University of Manitoba.
+- Adriana-Stefania Ciupeanu. IIS Ph.D. and VADA Program student, Departments of Mathematics and Statistics, University of Manitoba.
+- Hippolyte Djimramadji. Ph.D. student, Department of Mathematics, Université de N'Djaména (Chad). Co-supervised with Patrick Tchepmo (NWU, South Africa) and Mahamat Saleh Daoussa Haggar (Université de N'Djaména).
+- Ghazale Farjam. Ph.D. Student, Department of Mathematics, University of Manitoba. Co-supervised with Leo Butler.
+- Md Mehadi Hasan. MSc student, Department of Mathematics, University of Manitoba.
+- Abdramane Annour Saad. Ph.D. student, Department of Mathematics, Université de N'Djaména (Chad). Co-supervised with Patrick Tchepmo (NWU, South Africa) and Mahamat Saleh Daoussa Haggar (Université de N'Djaména).
+
 ### Former
 - Agnes Adefisan, M.Sc., Department of Mathematics, University of Manitoba. A mathematical model of Ebola Virus Disease.
 - Mahnaz Alavinejad. M.Sc., Department of Mathematics, University of Manitoba. Transmission dynamics of an infectious disease with treatment. Currently Ph.D. student at York University (Toronto).
