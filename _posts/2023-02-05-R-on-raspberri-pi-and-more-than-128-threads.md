@@ -6,7 +6,7 @@ date:   2023-02-05
 categories: programming
 ---
 
-Does that title sound confusing? It should! Clearly, a 4 threaded Raspberry Pi (Pi for short from now on) is not subject to that annoying limitation baked in `R` that limits the number of sockets to 125+3. Except that yes, it can, when the Pi used as the head node on a cluster.
+Does that title sound confusing? It should! Clearly, a 4 threaded Raspberry Pi should not hit that annoying "feature" baked in `R` whereby the number of sockets is limited to 125+3. Except that yes, it can, when the Pi used as the head node on a cluster.
 
 ## The context
 
