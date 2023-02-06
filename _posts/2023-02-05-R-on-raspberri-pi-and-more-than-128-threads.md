@@ -51,7 +51,7 @@ That latter point is worth mentioning: yes, `rstudio-server` on a Pi! I just rec
 
 Simple call to check things are working. Run the following code, adapting to your setup. (Note that this implies you have set up your machines to use shared key `ssh`.) Note that in the code here, I have not yet used the adapted version of `R` on the 3990X, so I am limiting things to 125 threads there.
 
-```R
+{% highlight R %}
 node0 <- '192.168.0.50'
 node1 <- '192.168.0.51'
 node2 <- '192.168.0.52'
@@ -78,7 +78,8 @@ if(!is.null(parallelCluster)) {
   parallel::stopCluster(parallelCluster)
   parallelCluster <- c()
 }
-```
+{% endhighlight %}
+
 
 Then, calling `test_cluster.R` this code and running it from the command line,
 ```bash
