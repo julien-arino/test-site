@@ -26,8 +26,6 @@ With some tweaking of the BIOS, I gently overclocked the Threadrippers (the 3990
 
 This is when I hit the "125+3 sockets in `R`" issue the first time: my code was running fine on the 3970X but refusing to run on the 3990X. Dug into it and worked out that setting the number of CPUs to 125 in my calls to `makeCluster` on the 3990X did the trick. With 4 perfectly capable compute nodes and easily parallelisable tasks, it is easy enough to produce a job list and have the Pi distribute it between nodes, have the nodes save the results locally upon completion and have the Pi running periodic "`rsync` repatriations" of the results from the nodes to the NAS. Once the computations were done, I used one of the compute nodes to bring the pieces together. 
 
-(In full disclosure, my testing the Pi as a head node is just this.. a test. )
-
 ## Compiling `R` to remove the 125+3 sockets limitation
 
 Besides using **all** threads on the 3990X, I am also keen to drive some of the computations from a designated node. I have been meaning to do this for quite a while, but this was rather low on my priority list. (I also want to play around with solutions such as `slurm` or `htcondor`, but this will be for later.)  And here, the 125+3 sockets pops up again: as far as I understand it, the head node needs as many sockets as threads it is talking to, i.e., 320 in my case. 
