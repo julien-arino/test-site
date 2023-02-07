@@ -99,7 +99,7 @@ contact_note: >
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification
 # -----------------------------------------------------------------------------
-google_analytics: UA-1943806-8 # your google-analytics ID (format: UA-XXXXXXXXX)
+google_analytics: G-97QKRGST95 # your google-analytics ID (format: G-XXXXXXXXX)
 google_site_verification: zrOU6pP7sLlXf7f0kW-NZRV1lZtdpybCfrJ3BeBMHQM # your google-site-verification ID (Google Search Console)
 panelbear_analytics:  # panelbear analytics site ID (format: XXXXXXXXX)
 bing_site_verification:  # out your bing-site-verification ID (Bing Webmaster)
