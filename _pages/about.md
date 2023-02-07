@@ -24,4 +24,4 @@ My research deals primarily with population movement in epidemiology and ecology
 
 As part of my work, I have become more and more interested in the use of data in my models, hence my membership in VADA and the Data Science NEXUS.
 
-From 22 to 26 May 2023, Kang-Ling Liao, Stéphanie Portet and I are co-organising the sixth edition of the Computational and Mathematical Population Dynamics conference (CMPD6) in Winnipeg; see details [here](https://cmpd6.github.io/).
+From 23 to 27 May 2023, Kang-Ling Liao, Stéphanie Portet and I are co-organising the sixth edition of the [Sixth Computational and Mathematical Population Dynamics conference (CMPD6)](https://cmpd6.github.io/) in Winnipeg.
