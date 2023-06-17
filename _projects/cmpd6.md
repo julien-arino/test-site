@@ -1,9 +1,9 @@
 ---
 layout: page
 title: CMPD6
-description: Computational and Mathematical Population Dynamics 6 conference
+description: Computational and Mathematical Population Dynamics 6 conference, Winnipeg 23-27 May 2023
 redirect: https://cmpd6.github.io
-img: assets/img/figure_variant_importation_base_model_with_stimulations.png
+img: assets/img/CMPD6-CMHR-BW.png
 importance: 1
 category: current
 ---
