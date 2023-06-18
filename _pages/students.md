@@ -43,7 +43,7 @@ nav: true
 ### Current
 
 ### Former
-- Jane MacDonald. Currently M.Sc. student at University of Ottawa.
+- Jane MacDonald. Currently PIMS Postdoctoral Fellow, Simon Fraser University.
 - Liliana Menjivar. Became graduate student at U of M (see above).
 - January Sherbo. NSERC USRA student, Summer 2016 and Summer 2017. Currently M.Sc. student at University of Oxford.
 - Lindsay Wessel. Became graduate student at U of M (see above).
