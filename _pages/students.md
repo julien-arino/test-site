@@ -21,7 +21,7 @@ nav: true
 ### Current
 - Adriana-Stefania Ciupeanu. IIS Ph.D. and VADA Program student, Departments of Mathematics and Statistics, University of Manitoba.
 - Hippolyte Djimramadji. Ph.D. student, Department of Mathematics, Université de N'Djaména (Chad). Co-supervised with Patrick Tchepmo (NWU, South Africa) and Mahamat Saleh Daoussa Haggar (Université de N'Djaména).
-- Ghazale Farjam. Ph.D. Student, Department of Mathematics, University of Manitoba. Co-supervised with Leo Butler.
+- Ghazale Farjam. Ph.D. Student, Department of Mathematics, University of Manitoba.
 - Md Mehadi Hasan. MSc student, Department of Mathematics, University of Manitoba.
 - Abdramane Annour Saad. Ph.D. student, Department of Mathematics, Université de N'Djaména (Chad). Co-supervised with Patrick Tchepmo (NWU, South Africa) and Mahamat Saleh Daoussa Haggar (Université de N'Djaména).
 
