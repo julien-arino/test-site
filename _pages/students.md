@@ -8,7 +8,7 @@ nav: true
 
 ## Postdoctoral fellows
 ### Current
-- Clotilde Djuikem. Department of Mathematics, University of Manitoba.
+- [Clotilde Djuikem](https://scholar.google.com/citations?user=i2_8ZtsAAAAJ). Department of Mathematics, University of Manitoba.
 - Jhoana Romero. Department of Mathematics, University of Manitoba, currently working in Montreal. Co-supervised with Bouchra Nasri (U de M).
 - [Suzan Farhang Sardroodi](https://scholar.google.ca/citations?user=BCo2Q7IAAAAJ&hl=en). Department of Mathematics, University of Manitoba.
 
