@@ -8,8 +8,10 @@ nav: true
 
 ## Postdoctoral fellows
 ### Current
+- Clotilde Djuikem. Department of Mathematics, University of Manitoba.
 - Jhoana Romero. Department of Mathematics, University of Manitoba, currently working in Montreal. Co-supervised with Bouchra Nasri (U de M).
 - [Suzan Farhang Sardroodi](https://scholar.google.ca/citations?user=BCo2Q7IAAAAJ&hl=en). Department of Mathematics, University of Manitoba.
+
 ### Former
 - Nicolas Bajeux. Department of Mathematics, University of Manitoba.
 - Ling Xue. Department of Mathematics, University of Manitoba. PIMS Postdoctoral Fellow. Co-supervision with Felicia Magpantay (Queen's U.). Currently Assistant Professor, Harbin Engineering University.
