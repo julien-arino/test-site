@@ -8,11 +8,11 @@ nav: false
 
 ## Postdoctoral fellows
 
-- Nicolas Bajeux. Department of Mathematics, UM.
+- [Nicolas Bajeux](https://scholar.google.ca/citations?user=KRap8BQAAAAJ). Department of Mathematics, UM.
 - [Suzan Farhang Sardroodi](https://scholar.google.ca/citations?user=BCo2Q7IAAAAJ&hl=en). Department of Mathematics, UM. Currently: Department of Pharmacology, University of Toronto.
 - [Sehjeong Kim](https://scholar.google.com/citations?user=tMdLUukAAAAJ). St Michael's Hospital, Toronto. Co-supervision with Kamran Khan. Currently Associate Professor, United Arab Emirates University.
-- Chengjun Sun. Department of Mathematics, UM. Currently Associate Professor, Kunming University of Science and Technology.
-- Ling Xue. Department of Mathematics, UM. PIMS Postdoctoral Fellow. Co-supervision with Felicia Magpantay (Queen's U.). Currently Associate Professor, Harbin Engineering University.
+- [Chengjun Sun](https://www.semanticscholar.org/author/Chengjun-Sun/49321686). Department of Mathematics, UM. Currently Associate Professor, Kunming University of Science and Technology.
+- [Ling Xue](https://www.semanticscholar.org/author/Ling-Xue/46426749). Department of Mathematics, UM. PIMS Postdoctoral Fellow. Co-supervision with Felicia Magpantay (Queen's U.). Currently Associate Professor, Harbin Engineering University.
 
 ## Graduate students
 - Agnes Adefisan, M.Sc., Department of Mathematics, UM. [A mathematical model of Ebola Virus Disease](http://hdl.handle.net/1993/33422).
