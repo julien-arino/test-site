@@ -2,7 +2,7 @@
 layout: page
 permalink: /past-students/
 title: past students
-description: Supervision of researchers in training.
+description: The following are trainees that I supervised in some capacity.
 nav: false
 ---
 
@@ -12,7 +12,6 @@ nav: false
 - [Suzan Farhang Sardroodi](https://scholar.google.ca/citations?user=BCo2Q7IAAAAJ&hl=en). Department of Mathematics, UM. Currently: Department of Pharmacology, University of Toronto.
 - [Sehjeong Kim](https://scholar.google.com/citations?user=tMdLUukAAAAJ). St Michael's Hospital, Toronto. Co-supervision with Kamran Khan. Currently Associate Professor, United Arab Emirates University.
 - Chengjun Sun. Department of Mathematics, UM. Currently Associate Professor, Kunming University of Science and Technology.
-- Michel Virgilio. Department of Mathematics, UM. Currently Sessional Instructor, UM.
 - Ling Xue. Department of Mathematics, UM. PIMS Postdoctoral Fellow. Co-supervision with Felicia Magpantay (Queen's U.). Currently Associate Professor, Harbin Engineering University.
 
 ## Graduate students
