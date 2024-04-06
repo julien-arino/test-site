@@ -15,10 +15,10 @@ nav: true
 
 ## Graduate students
 - Abdramane Annour Saad. PhD student, Department of Mathematics, Université de N'Djaména (Chad). Co-supervised with Patrick Tchepmo (NWU, South Africa) and Mahamat Saleh Daoussa Haggar (Université de N'Djaména).
-- Adriana-Stefania Ciupeanu. IIS Ph.D. and former VADA Program student, Departments of Mathematics and Statistics, UM.
+- Adriana-Stefania Ciupeanu. IIS PhD and VADA Program student, Departments of Mathematics and Statistics, UM.
 - Hippolyte Djimramadji. PhD student, Department of Mathematics, Université de N'Djaména (Chad). Co-supervised with Patrick Tchepmo (NWU, South Africa) and Mahamat Saleh Daoussa Haggar (Université de N'Djaména).
-- Ghazale Farjam. PhD Student, Department of Mathematics, UM.
-- Md Mehadi Hasan. MSc student, Department of Mathematics, UM.
+- Ghazale Farjam. PhD and VADA Program student, Department of Mathematics, UM.
+- Md Mehadi Hasan. MSc and VADA Program student, Department of Mathematics, UM.
 - Solomon Mensah. MSc student, Department of Mathematics, UM.
 
 ## Undergraduate students
