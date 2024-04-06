@@ -22,7 +22,7 @@ nav: true
 - Solomon Mensah. MSc student, Department of Mathematics, UM.
 
 ## Undergraduate students
-- 
+- Varun Mulchandani. USRA summer 2024. Computer Science, UM.
 
 ## Opportunities for undergraduate students
 If you are an undergraduate student at the UM and want an experience of research, I am often looking for summer or research students with some knowledge of one (or more) of the following:
