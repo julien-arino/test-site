@@ -3,7 +3,7 @@ layout: page
 permalink: /past-students/
 title: past students
 description: Supervision of researchers in training.
-nav: true
+nav: false
 ---
 
 ## Postdoctoral fellows
