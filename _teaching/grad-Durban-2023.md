@@ -5,5 +5,5 @@ description: A short course on Mathematical Epidemiology taught at UKZN (Durban)
 img: https://julien-arino.github.io/2023-09-Durban-course/assets/img/Life_cycle_&_anatomy_of_Anopheles_mosquito,_1901_Wellcome_L0037512.jpg
 redirect: /2023-09-Durban-course/
 importance: 1
-category: recent
+category: older
 ---

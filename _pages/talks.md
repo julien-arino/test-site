@@ -7,6 +7,7 @@ nav: true
 ---
 
 If a title is clickable, this means slides are available. If an event title (Context) is clickable, the link will lead to the event website.
+Note that I do not update this list very frequently and thus the last few months or years may be missing.
 
 <!--- {% increment my_row %} --->
 
