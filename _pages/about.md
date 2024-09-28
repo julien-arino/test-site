@@ -18,7 +18,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am a Professor with the Department of Mathematics at the [University of Manitoba](https://umanitoba.ca/).
+I am a Professor with the Department of Mathematics at the [University of Manitoba](https://umanitoba.ca/) and a member of the (informal) [Mathematical (& Statistical) Biology group](https://umanitoba-mathbio.github.io/).
 
 My research is in mathematical biology, with particular focus on the role of movement in epidemiology and epizootiology. As part of my work, I have become more and more interested in data scientific aspects. 
 
